@@ -19,4 +19,4 @@ jobs:
     - name: Install dependencies
       run: dotnet tool restore
     - name: Run
-      run: dotnet tool run Web.Ping --host https://github.com/wenrouxiangdia/PingWebSite/actions
+      run: dotnet tool run Web.Ping --host http://www.zkea.net
